@@ -1,0 +1,235 @@
+/* Austin Brown 8929034 */
+html{
+    font-size: 100%;
+}
+body{
+    background-color: hsla(0, 0%, 43%, 0.878);
+    margin: auto;
+    padding: 2em;
+    font: Tahoma;
+}  
+header{
+    font-size: 4em;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+main{
+    padding-bottom: 1em;
+    font-size: 1.25em;
+    float: left;
+    width: 60vw;
+    height: 26;
+}
+.main2{
+    padding-bottom: 1em;
+    font-size: 1.25em;
+    float: left;
+    width: 60vw;
+    height: 26;
+    margin-top: 1em;
+    padding: 0.5em;
+    border: solid black 0.2em;
+}
+aside{
+    float: right;
+    width: 30vw;
+    height: 20vh;
+    border: 1px solid black;
+    padding-top: 1em;
+    background-image: url(https://wallpapers.com/images/hd/gray-gradient-background-l63d92e4zrvl6f6d.jpg);
+}
+h1, h2, h3, h4{
+    color:rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+.con{
+    text-align: center;
+}
+#quote{
+    font-size: 1.25em;
+    color: rgb(255, 255, 255);
+    font: serif;
+}
+.biow{
+    text-align: center;
+}
+.structural{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 60px;
+    padding: 0.5em;
+    background: linear-gradient(to bottom, gray, white);
+}
+.structural2{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 75px;
+    padding: 0.5em;
+    margin-top: 20px;
+}
+.structural3{
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 75px;
+    text-align: center;
+}
+nav{
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    border: .25em solid rgb(255, 255, 255);
+    background-color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(0, 0, 0);
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: auto;
+}
+figcaption{
+    font-size: 1.3em;
+    color: black;
+    font-variant: small-caps;
+    font-style: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+#img1{
+    border: 2px solid rgb(255, 255, 255);
+    height: 30%;
+    width: 30%;
+}
+img{
+    height: 90%;
+    width: 90%;
+}
+q{
+    font-size: medium;
+    font-family: 'cursive';
+    font-style: italic;
+}
+table, td, th{
+    border: 0.1em solid black;
+    text-align: center;
+}
+th{
+    background-color: white;
+}
+td{
+    background-color: rgb(205, 205, 205);
+}
+table td:hover{
+    background-color: lightblue;
+}
+.name, .email, .comment, .formz, .checkbox{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px;
+}
+input[type=text], input[type=email], input[type=name], select, input[type=submit], input[type=datetime-local]{
+    display: block;
+    width: 50%;
+    height: 2em;
+}
+input[type=checkbox]{
+    margin-top: 0.5em;
+    height: 2em;
+    width: 2em;
+}
+.gallary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: .3em;
+    column-gap: .3em;
+    border: solid black 2px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    color: white;
+}
+.mediavid{
+    text-align: center;
+}
+footer{
+    clear: both;
+    font-size : .75em;
+    float: bottom;
+    color: darkblue;
+    background: linear-gradient(to bottom, gray, white);
+}
+@media (max-width: 800px){
+    main{
+        font-size: 0.9em;
+    }
+    header{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    ul,li{
+        font-size: 0.7em;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    aside{
+        float: right;
+        width: 10vw;
+        background-image: url(https://holdplease.com/wp-content/uploads/2016/08/black-grey-gradient-background-for-web.jpg);
+    }
+    iframe{
+        width: 30em;
+        height: 20em
+    }
+}
+@media (max-width: 600px){
+    main{
+        font-size: 0.75em;
+    }
+    header{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    ul,li{
+        font-size: 0.5em;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    aside{
+        float: right;
+        width: 8vw;
+        background-image: url(https://t4.ftcdn.net/jpg/01/39/59/39/360_F_139593909_anc4cllhKeLgxbXzFXECoQUcZhupGn8h.jpg);
+    }
+    iframe{
+        width: 27em;
+        height: 17em;
+    }
+}
+
